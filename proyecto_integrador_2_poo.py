@@ -7,7 +7,7 @@ class Personas:
 class Animales:
     nombre=""
     genero=""
-    especie=""
+    raza=""
 
 class Veterinaria:
     nombre=""
@@ -19,10 +19,10 @@ class Veterinaria:
 
 persona1 = Personas()
 
-persona1.nombre = "Naraly"
-persona1.apellidos = "Arenas"
-persona1.edad = 29
-persona1.cedula = "1059235964"
+persona1.nombre = "N.A"
+persona1.apellidos = "N.A"
+persona1.edad = "N.A"
+persona1.cedula = "N.A"
 
 print("Primera clase: Personas")
 print("Nombre:", persona1.nombre)
@@ -33,14 +33,14 @@ print("Cédula:", persona1.cedula)
 
 animales1 = Animales()
 
-animales1.nombre="Claudio"
+animales1.nombre="Lucho"
 animales1.genero="macho"
-animales1.especie ="Gallo"
+animales1.raza ="Perro-criollo"
 
 print("Segunda clase: Animales")
 print("Nombre:", animales1.nombre)
 print("Genero", animales1.genero )
-print("Especie:", animales1.especie)
+print("Raza:", animales1.raza)
 
 
 veterinaria1 = Veterinaria()
@@ -57,10 +57,10 @@ print("Teléfono:", veterinaria1.telefono)
 
 persona1 = Personas()
 
-persona1.nombre = "Yuliana"
-persona1.apellidos = "Montes"
-persona1.edad = 25 
-persona1.cedula = "1053624850"
+persona1.nombre = "N.A"
+persona1.apellidos = "N.A"
+persona1.edad = "N.A" 
+persona1.cedula = "N.A"
 
 print("Primera clase: Personas")
 print("Nombre:", persona1.nombre)
@@ -71,14 +71,14 @@ print("Cédula:", persona1.cedula)
 
 animales1 = Animales()
 
-animales1.nombre="Panchita"
+animales1.nombre="Lula"
 animales1.genero="Hembra"
-animales1.especie ="Vaca"
+animales1.raza ="Gata-siames"
 
 print("Segunda clase: Animales")
 print("Nombre:", animales1.nombre)
 print("Genero", animales1.genero )
-print("Especie:", animales1.especie)
+print("Raza:", animales1.raza)
 
 
 veterinaria1 = Veterinaria()
