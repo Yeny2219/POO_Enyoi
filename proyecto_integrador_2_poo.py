@@ -19,10 +19,10 @@ class Veterinaria:
 
 persona1 = Personas()
 
-persona1.nombre = "Yeny"
-persona1.apellidos = "González"
-persona1.edad = 30
-persona1.cedula = "1234567890"
+persona1.nombre = "N.A"
+persona1.apellidos = "N.A"
+persona1.edad = "N.A"
+persona1.cedula = "N.A"
 
 print("Primera clase: Personas")
 print("Nombre:", persona1.nombre)
@@ -33,9 +33,9 @@ print("Cédula:", persona1.cedula)
 
 animales1 = Animales()
 
-animales1.nombre="Fargo"
+animales1.nombre="Lucho"
 animales1.genero="macho"
-animales1.raza ="Husky Siberiano"
+animales1.raza ="Perro-criollo"
 
 print("Segunda clase: Animales")
 print("Nombre:", animales1.nombre)
@@ -57,10 +57,10 @@ print("Teléfono:", veterinaria1.telefono)
 
 persona1 = Personas()
 
-persona1.nombre = "Olga"
-persona1.apellidos = "Uribe"
-persona1.edad = 40 
-persona1.cedula = "30526413"
+persona1.nombre = "N.A"
+persona1.apellidos = "N.A"
+persona1.edad = "N.A" 
+persona1.cedula = "N.A"
 
 print("Primera clase: Personas")
 print("Nombre:", persona1.nombre)
@@ -71,9 +71,9 @@ print("Cédula:", persona1.cedula)
 
 animales1 = Animales()
 
-animales1.nombre="Valhalla"
-animales1.genero="macho"
-animales1.raza ="Bombay"
+animales1.nombre="Lula"
+animales1.genero="Hembra"
+animales1.raza ="Gata-siames"
 
 print("Segunda clase: Animales")
 print("Nombre:", animales1.nombre)
@@ -91,3 +91,5 @@ print("Tercera clase: Veterinaria")
 print("Nombre:", veterinaria1.nombre)
 print("Dirección:", veterinaria1.direccion)
 print("Teléfono:", veterinaria1.telefono)
+
+
